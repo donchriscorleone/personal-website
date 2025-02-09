@@ -3,211 +3,201 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Christopher's Personal Website</title>
+    <title>Christopher IT Solution</title>
 
-    <link rel="stylesheet" href="./css/resets.css">
-    <link rel="stylesheet" href="./css/core.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
 
-    <header class="header">
-        <div class="wrapper header-wrapper">
-            <h1>
-                <a href="#">christopher.dev</a>
-            </h1>
-            <nav class="nav">
-                <ul class="links">
-                    <li>
-                        <a href="https://github.com/donchriscorleone" target="_blank">
-                            <div class="icon-container">
-                                <img src="./assets/icons/github.svg" alt="Github icon">
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/devchristopherii/">
-                            <div class="icon-container">
-                                <img src="./assets/icons/instagram.svg" alt="Instagram icon">
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="mailto:christopheriilajom@gmail.com">
-                            <div class="icon-container">
-                                <img src="./assets/icons/gmail.svg" alt="Gmail icon">
-                            </div>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-    
-            <section class="heading-content-container">
-                <div class="heading-content">
-                    <h2>Specialized in Front-end Development</h2>
-                    <p class="clr-200">With an ample amount of experience, I am the <em class="clr-400">best front-end developer</em> you will know.</p>
-                    <a href="mailto:christopheriilajom@gmail.com" class="cta">Contact Me Now</a>
+    <header class="mb-[100px]">
+        <div class="wrapper p-5 max-w-md mx-auto sm:max-w-lg">
+            <!-- Navigation -->
+            <div>
+                <nav>
+                    <ul class="flex items-center justify-center gap-3 sm:gap-6">
+                        <li><a class="font-semibold tracking-wider md:tracking-[6.33px] uppercase" href="#work">Work</a></li>
+                        <!-- <li><a class="font-semibold tracking-wider md:tracking-[6.33px] uppercase"href="#projects">Project</a></li> -->
+                        <li><a class="font-semibold tracking-wider md:tracking-[6.33px] uppercase" href="#about">About</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <!-- Heading -->
+            <div class="grid gap-y-[40px] mt-[40px]">
+                <div class="title text-[40px] sm:text-[50px] font-bold text-[#999999]">
+                    <h1>Hello, I'm Christopher</h1>
                 </div>
-                <img class="header-img" src="./assets/web-developer.svg" alt="A web developer image">
-            </section>
-        </div>
-    </header>
 
-    <main class="main">
-        <div class="wrapper main-wrapper">
-            
-            <!-- PROJECT -->
-             <div class="portfolio">
-                <h2>Portfolio</h2>
-                <p class="clr-200">These are some of my front-end development <em class="clr-400">projects with either a framework or just plain tools</em>.
-                    We can set a meeting for more of my projects.
-                </p>
-
-                <div class="projects">
-                    <section class="card">
-                        <img src="./assets/projects/rock-paper-scissor.png" alt="An image preview of rock-paper-scissor project">
-                        <a target="_blank" href="https://rock-paper-scissor-by-christopherii.netlify.app/" class="card__title">Rock, Paper, Scissor</a>
-                        <p class="card__description clr-200">
-                            Built with Angular. Classic game that everyone knows. Challenge from Frontend Mentor. 
-                        </p>
-                    </section>
-                    <section class="card">
-                        <img src="./assets/projects/rest-countries.png" alt="An image preview of REST API Countries projct">
-                        <a target="_blank" href="https://rest-api-countries-christopherii.netlify.app/" class="card__title">REST Countries</a>
-                        <p class="card__description clr-200">
-                            Using Angular and its Angular Material, it consumes a REST API to search a country. 
-                        </p>
-                    </section>
-                    <section class="card">
-                        <img src="./assets/projects//ip-address-tracker.png" alt="An image preview of IP Address Tracker project">
-                        <a target="_blank" href="https://ip-address-tracker-devchristopherii.netlify.app/" class="card__title">IP Address Tracker</a>
-                        <p class="card__description clr-200">
-                            Built using vanilla JS, CSS, LeafletJS, and Ipify. It tries to point out an address from a given IP address 
-                        </p>
-                    </section>
-                    <section class="card">
-                        <img src="./assets/projects/e-commerce-product-page.png" alt="An image preview of E-commerce Product Page">
-                        <a target="_blank" href="https://donchriscorleone.github.io/e-commerce-product-page-main/" class="card__title">
-                            E-commerce Product Page</a>
-                        <p class="card__description clr-200">
-                            Interactive sample page of a given product. Real-world scenario on how a product page should work. Built using vanilla JS, and CSS. 
-                        </p>
-                    </section>
-                    <section class="card">
-                        <img src="./assets/projects/multi-step-form.png" alt="An image preview of Multi-step Form project">
-                        <a target="_blank" href="https://donchriscorleone.github.io/multi-step-form-main/" class="card__title">
-                            Multi-step Form</a>
-                        <p class="card__description clr-200">
-                            Built using vanilla JS, and SCSS. From a design mockup, to a fully functional web component.
-                        </p>
-                    </section>
-                    <section class="card">
-                        <img src="./assets/projects/interactive-comment-section.png" alt="An image preview of Interactive Comment Section project">
-                        <a target="_blank" href="https://donchriscorleone.github.io/interactive-comments-main-section/" class="card__title">
-                            Interactive Comment Main Section</a>
-                        <p class="card__description clr-200">
-                            Real-world example of an interactive comment section. With the use of Angular, I was able to translate the mockup design.
-                        </p>
-                    </section>
+                <div class="short-description">
+                    <p class="mb-2 text-lg text-[#6D6D6D] leading-[1.75] sm:leading-[2]">
+                        I make custom-coded static websites for any businesses.
+                    </p>
+                    <p class="text-lg text-[#6D6D6D] leading-[1.75] sm:leading-[2]">
+                        Let's create your website starting from <em class="text-blue-400 font-semibold">0 downpayment and minimum monthly subscription fee.</em>
+                    </p>
+                    <ul class="flex gap-5 mt-4">
+                        <li><a class="font-semibold tracking-wider" target="_blank" href="https://www.linkedin.com/in/christopher-ii-lajom-031959211/" aria-label="LinkedIn Link">LinkedIn.</a></li>
+                        <li><a class="font-semibold tracking-wider" href="mailto:dev.christopherii@gmail.com" aria-label="Contact link">Gmail.</a></li>
+                    </ul>
                 </div>
-             </div>
-            <!-- PROJECT -->
 
-            <!-- My Offer -->
-             <div class="my-offer">
-                <h2>What I Offer</h2>
-                <p class="clr-200">I can serve you with a <em class="clr-400">world-class coding skills</em> using the best practices and tools out there.
-                </p>
-
-                <div class="offers">
-                    <section class="card">
-                        <img src="./assets/offers/frontend.svg" alt="An image of a programmer">
-                        <span class="card__title">Specialized Frontend Development</span>
-                        <p class="card__description clr-200">
-                            I know front-end development inside out. 
-                            From building HTML pages to creating automated tests for the whole codebase. 
-                        </p>
-                    </section>
-                    <section class="card">
-                        <img src="./assets/offers/transform-mockup.svg" alt="An image of a designer">
-                        <span class="card__title">Transforming Mockups to Life</span>
-                        <p class="card__description clr-200">
-                            I built countless mockup designs from the ground up using plain tools or with frameworks.
-                        </p>
-                    </section>
-                    <section class="card">
-                        <img src="./assets/offers/maintain-codebase.svg" alt="An image of a programmer maintaining a codebase">
-                        <span class="card__title">Maintaining Codebase</span>
-                        <p class="card__description clr-200">
-                            I can and will fix your bugs and maintain your spaghetti code with any frameworks or tools you are currently using.
-                        </p>
-                    </section>
-                </div>
-             </div>
-            <!-- My Offer -->
-
-            <!-- PITCH -->
-             <div class="pitch">
-                <h2>Hesitant to hire me?</h2>
-                <p class="clr-200"><em class="clr-400">I will work for free for 1 week</em>. If you think I'm not good enough, you can fire me anytime.
-                </p>
-                <div class="pitch-items">
-                    <section class="card">
-                        <!-- <img class="card__img" src="https://picsum.photos/id/824/200/" alt="A project image preview"> -->
-                        <span class="card__title">Expert at my field</span>
-                        <p class="card__description clr-200">
-                            I can and will solve any problems at my specific domain.
-                        </p>
-                    </section>
-                    <section class="card">
-                        <!-- <img class="card__img" src="https://picsum.photos/id/824/200/" alt="A project image preview"> -->
-                        <span class="card__title">Independent</span>
-                        <p class="card__description clr-200">
-                            I can work efficiently regardless I am in a team or not.
-                        </p>
-                    </section>
-                    <section class="card">
-                        <!-- <img class="card__img" src="https://picsum.photos/id/824/200/" alt="A project image preview"> -->
-                        <span class="card__title">Fast learner</span>
-                        <p class="card__description clr-200">
-                            I can assure you I can learn anything I put something in my mind as fast as possible.
-                        </p>
-                    </section>
-                    <section class="card">
-                        <!-- <img class="card__img" src="https://picsum.photos/id/824/200/" alt="A project image preview"> -->
-                        <span class="card__title">Iron Mind</span>
-                        <p class="card__description clr-200">
-                            My sheer determination and brilliant mind stand out from the competetion.
-                        </p>
-                    </section>
+                <div class="bg-[#FFE8E8] p-[15px] justify-self-start">
+                    <a href="mailto:dev.christopherii@gmail.com" class="text-base uppercase opacity-60 font-semibold">Contact Me</a>
                 </div>
             </div>
-            <!-- PITCH -->
         </div>
+    </header>
+    
+    <main class="p-5">
+        <!-- Work -->
+        <section id="work" class="flex flex-col gap-[50px] mb-[100px] max-w-md mx-auto sm:max-w-lg">
+            <h2 class="section-title text-[30px] sm:text-[40px] text-[#999999] font-bold">Work</h2>
+
+            <div class="work grid grid-cols-2 sm:gap-y-4 items-start">
+                <div class="flex flex-col">
+                    <span class="text-[#6d6d6d]">BigHand</span>
+                    <span class="text-[#7E7C7C]">August 2022 - Present</span>
+                </div>
+
+                <div class="flex flex-col gap-[10px]">
+                    <span class="text-[#6d6d6d]">Software developer, doing front-end development</span>
+                    <div class="flex gap-2 flex-wrap">
+                        <div class="pill">
+                            <span class="text-xs text-[#666666]">Angular</span>
+                        </div>
+                        <div class="pill">
+                            <span class="text-xs text-[#666666]">TypeScript</span>
+                        </div>
+                        <div class="pill">
+                            <span class="text-xs text-[#666666]">C#</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="work grid grid-cols-2 sm:gap-y-4 items-start">
+                <div class="flex flex-col">
+                    <span class="text-[#6d6d6d]">Iridium Technology</span>
+                    <span class="text-[#7E7C7C]">2021 - 2022</span>
+                </div>
+
+                <div class="flex flex-col gap-[10px]">
+                    <span class="text-[#6d6d6d]">Software Dev Intern, work under the provisions of senior and junior developers</span>
+                    <div class="flex gap-2 flex-wrap">
+                        <div class="pill">
+                            <span class="text-xs text-[#666666]">Angular</span>
+                        </div>
+                        <div class="pill">
+                            <span class="text-xs text-[#666666]">JavaScript</span>
+                        </div>
+                        <div class="pill">
+                            <span class="text-xs text-[#666666]">.Net</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="work grid grid-cols-2 sm:gap-y-4 items-start">
+                <div class="flex flex-col">
+                    <span class="text-[#6d6d6d]">McDonalds</span>
+                    <span class="text-[#7E7C7C]">2019 - 2021</span>
+                </div>
+
+                <div class="flex flex-col gap-[10px]">
+                    <span class="text-[#6d6d6d]">I cooked food, cleaned the store, and greeted all customers.</span>
+                    <div class="flex gap-2 flex-wrap">
+                        <div class="pill">
+                            <span class="text-xs text-[#666666]">Grill</span>
+                        </div>
+                        <div class="pill">
+                            <span class="text-xs text-[#666666]">Lobby</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- Work -->
+
+        <!-- Projects -->
+         <!--
+         <section id="projects" class="flex flex-col gap-5 mb-[100px] max-w-md mx-auto sm:gap-[80px] sm:max-w-lg">
+            <h2 class="section-title text-[30px] sm:text-[40px] text-[#999999] font-bold">Projects</h2>
+
+            <div class="project flex flex-col gap-4 sm:flex-row md:gap-7 sm:items-center">
+                <img src="https://picsum.photos/id/237/300" alt="A picture of project 1">
+
+                <div class="flex flex-col gap-2 sm:gap-4">
+                    <span class="text-[20px] font-bold text-[#999999]">Project 1</span>
+                    <span class="leading-[2] text-[#6d6d6d]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis sit tenetur distinctio repudiandae totam consectetur.</span>
+                </div>
+            </div>
+
+            <div class="project flex flex-col gap-4 sm:flex-row md:gap-7 sm:items-center sm:flex-row-reverse">
+                <img src="https://picsum.photos/id/237/300" alt="A picture of project 1">
+
+                <div class="flex flex-col gap-2 sm:gap-4">
+                    <span class="text-[20px] font-bold text-[#999999]">Project 1</span>
+                    <span class="leading-[2] text-[#6d6d6d]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis sit tenetur distinctio repudiandae totam consectetur.</span>
+                </div>
+            </div>
+
+            <div class="project flex flex-col gap-4 sm:flex-row md:gap-7 sm:items-center">
+                <img src="https://picsum.photos/id/237/300" alt="A picture of project 1">
+
+                <div class="flex flex-col gap-2 sm:gap-4">
+                    <span class="text-[20px] font-bold text-[#999999]">Project 1</span>
+                    <span class="leading-[2] text-[#6d6d6d]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis sit tenetur distinctio repudiandae totam consectetur.</span>
+                </div>
+            </div>
+
+         </section>
+         -->
+        <!-- Projects -->
+
+
+         <!-- About -->
+         <section id="about" class="flex flex-col gap-5 mb-[100px] max-w-md mx-auto sm:max-w-lg">
+            <h2 class="text-[30px] text-[#999999] font-bold mb-2">About</h2>
+
+            <span class="text-[#6d6d6d] leading-[2]">
+                Everything I build is <em class="font-bold text-[#7E7C7C]">tailored and unique</em> for every client.
+                I fix all your website problems so you can focus making more money.
+            </span>
+
+            <div class="banner grid grid-cols-2 gap-y-5 relative">
+                <img class="col-span-full" src="./assets/ben-kolde-bs2Ba7t69mM-unsplash.jpg" alt="Banner background image">
+
+                <div>
+                    <!-- <span class="text-[#6d6d6d] block leading-[2]"></span> -->
+                    <div class="banner-card absolute flex flex-col gap-3 bg-[#ffe8e8] p-5">
+                        <div class="flex flex-col">
+                            <span class="text-[#7E7C7C] tracking-[6.33px] uppercase">Email</span>
+                            <span class="text-[#2e2e2e] tracking-[0.39px]">dev.christopher@gmail.com</span>
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="text-[#7E7C7C] tracking-[6.33px] uppercase">Facebook</span>
+                            <span class="text-[#2e2e2e] tracking-[0.39px]">Christopher IT Solutions</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <span class="text-[#6d6d6d] leading-[2]">
+                Every line of code is written to fully optimize the performance of your website bringing more leads and customers. Bringing you more revenue to your business. I am happy to be at your service 24/7 where I can edit anything in your website for free. My goal is to have a long term relationships between clients and witness their growth over time.
+            </span>
+         </section>
+         <!-- About -->
     </main>
 
-    <footer class="footer">
-        <div class="wrapper">
-            <nav class="footer__nav">
-                <!-- <ul class="links">
-                    <li><a href="#" target="_blank">&copy; christopher.dev</a></li>
-                </ul> -->
-                <ul class="links">
-                    <li><span class="links__title">Reach me</span></li>
-                    <li><a href="mailto:christopheriilajom@gmail.com" target="_blank">E-mail</a></li>
-                    <li><a href="https://github.com/donchriscorleone" target="_blank">GitHub</a></li>
-                    <li><a href="https://www.instagram.com/devchristopherii/" target="_blank">Instagram</a></li>
-                    <li><a href="https://www.frontendmentor.io/profile/donchriscorleone" target="_blank">Frontend Mentor</a></li>
-                </ul>
-                <div class="footer-consultation">
-                    <span>Not sure yet? <em class="clr-400">Consultation is free</em></span>
-                    <span>It takes 15 minutes and will <em class="clr-400">change your business forever</em></span>
-                </div>
-            </nav>
+    <footer class="bg-[#d8d8d8]">
+        <div class="flex flex-col gap-2 p-7 items-center max-w-md mx-auto sm:max-w-lg">
+            <span class="text-[#6d6d6d] text-lg opacity-[.8]">Developed by Christopher II (me)</span>
+            <span class="text-[#6d6d6d] text-lg opacity-[.8]">Design from <a target="_blank" href="https://www.figma.com/@poojasinhaa">Pooja Sinha</a></span>
         </div>
     </footer>
-
 </body>
 </html>
